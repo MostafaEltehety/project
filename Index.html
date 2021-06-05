@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/Style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+
+   <p class="head"></p>
+    <!--Start Navbar-->
+<div class="container-fluid">
+
+
+  <div class="row">
+ 
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+        
+            
+            <span>Language : </span>
+            <li class="nav-item dropdown">
+              <select id="select" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected value="English">English</option>
+                <option value="Arabic">Arabic</option>
+                
+              </select>
+            </li>
+            <span>Currency : </span>
+
+            <li class="nav-item dropdown">
+              <select id="select" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected value="English">EUR</option>
+                <option value="Arabic">USD</option>
+                
+              </select>
+            </li> 
+            
+            <span class="nav-item">
+            Telephone :<span class="secoundColor">+333 333 333</span>  
+          </span>
+          </ul>
+
+        </div>
+      
+        <div class="collapse navbar-collapse text-center justify-content-center"  id="navbarText">
+        
+          <ul class="navbar-nav">
+        
+            
+         
+            <li class="nav-item">
+              <a href="#" class="link-nav-item">My Account</a>
+              <span class="link-nav-border"></span>
+            </li>
+            
+            <li class="nav-item">
+              <a href="#" class="link-nav-item"  data-toggle="modal" data-target="#exampleModalCenterLogin">Login</a>
+              <span class="link-nav-border"></span>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="link-nav-item"  data-toggle="modal" data-target="#exampleModalCenterRegistration">Register</a>
+              <span class="link-nav-border"></span>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="link-nav-item">CheckOut</a>
+            
+            </li>
+
+          </ul>
+
+        </div>
+         
+        </div>
+      </div>
+    </nav>
+  </div>
+    <!--End Navbar-->
+
+<div class="container-fluid">
+
+
+
+
+<!--Start-header-->
+        <header >
+           <div class="row">
+             <div class="left">
+                <img src="images/logo.png" alt="logo">
+             </div>
+             <div class="right">
+              <div class="input-group mb-3 search">
+                <input type="text" class="form-control" placeholder="Search.." aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-rss" aria-hidden="true"></i></button>
+                <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-pinterest-p" aria-hidden="true"></i></button>
+                <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-globe" aria-hidden="true"></i></button>
+              </div>
+
+
+
+             </div>
+           </div>
+        </header>
+<!--End-header-->
+
+<!--Start-Navba 2-->
+
+
+<p class="sepratoer"></p>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">FASHION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">CONTACT US</a>
+        </li>
+       
+      </ul>
+      <form class="d-flex">
+
+        <button class="btn btn-success" type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ( <span id="count"> 0</span> ) ITEMS</button>
+      </form>
+    </div>
+  </div>
+
+</nav>
+
+<!--End-Navba 2-->
+<p class="sepratoer"></p>
+
+
+
+  <!--Start-ProductDettails-->
+
+
+<!--Start-ViewProduct-->
+
+<div class="container-fluid" id="viewDetails">
+ 
+  <div class="row">
+   
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><!--Slide-->
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/item1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/item2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/item3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+  
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><!--Description-->
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, enim eveniet dignissimos, dolores voluptas veritatis optio necessitatibus hic quaerat consequatur sapiente similique nobis, nisi ducimus repellat quas laboriosam cum vero.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, enim eveniet dignissimos, dolores voluptas veritatis optio necessitatibus hic quaerat consequatur sapiente similique nobis, nisi ducimus repellat quas laboriosam cum vero.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, enim eveniet dignissimos, dolores voluptas veritatis optio necessitatibus hic quaerat consequatur sapiente similique nobis, nisi ducimus repellat quas laboriosam cum vero.</p>
+  <span class="col-4 col-xs-4 m-3">$899.99</span>
+      <button type="button" class="btn btn-secondary m-3">ADD TO CART</button>
+      <a href="#" class="m-3" onclick="backtolist()">Back to list</a>
+</div>
+  
+  </div>
+  </div>
+  
+  <!--End-ViewProduct-->
+  
+
+<br>
+
+
+<div id="Product-Details">
+
+
+
+
+
+<!-- Start-carousel-->
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/1.png" class="d-block w-100" alt="image1">
+     
+    </div>
+    <div class="carousel-item">
+      <img src="images/2.jpg" class="d-block w-100" alt="image2">
+    
+    </div>
+    <div class="carousel-item">
+      <img src="images/3.jpg" class="d-block w-100" alt="image3">
+     
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--End-carousel-->
+
+<!--Start-Visite-->
+
+<nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+  <div class="container-fluid">
+   
+    
+   
+      <p class="navbar-nav nav-item me-auto mb-2 mb-lg-0 w-100">CHECK OUR &nbsp; <span style="font-weight: bold;"> AMAZING OFFERS  &nbsp; </span>, VISIT OUR  &nbsp; <span style="font-weight: bold;">  STORE  &nbsp;</span> NOW</p>
+      
+      <form class="d-flex w-100" style="justify-content: flex-end;">
+
+        <button class="btn btn-success" type="submit"> VISIT THE STORE </button>
+      </form>
+    </div>
+
+
+</nav>
+
+
+<!--End-Visite-->
+
+
+
+<!-- Start-RECENT PRODUCTS-->
+<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-8 col-lg-3 col-md-3"> 
+    <h3 >RECENT PRODUCTS</h3>
+  </div>
+  <div class="col-xs-4 col-lg-9 col-md-9" style="margin-top: 15px;">
+    <p class="sepratoer"></p>
+
+  </div>
+
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row justify-content-center">
+  <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+    <img src="images/item1.png" class="card-img-top" alt="item">
+    <div class="card-body">
+      <span class="col-4 col-xs-4">$899.99</span>
+      <button type="button" class="btn btn-secondary">ADD TO CART</button>
+      <hr>
+      <h5 class="card-title">EOS 450D Camera</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+     <hr>
+      <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+    </div>
+  </div>
+
+  <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+    <img src="images/item2.png" class="card-img-top" alt="item">
+    <div class="card-body">
+      <span class="col-4 col-xs-4">$699.99</span>
+      <button type="button" class="btn btn-secondary">ADD TO CART</button>
+      <hr>
+      <h5 class="card-title">A Set of Camera Lenses</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+      <hr>
+      <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+    </div>
+  </div>
+
+  <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+    <img src="images/item3.png" class="card-img-top" alt="item">
+    <div class="card-body">
+      <span class="col-4 col-xs-4">$2499.99</span>
+      <button type="button" class="btn btn-secondary">ADD TO CART</button>
+      <hr>
+      <h5 class="card-title">Professional Camera</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+      <hr>
+      <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+    </div>
+  </div>
+
+  <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+    <img src="images/item4.png" class="card-img-top" alt="item">
+    <div class="card-body">
+      <span class="col-4 col-xs-4">$5499.99</span>
+      <button type="button" class="btn btn-secondary">ADD TO CART</button>
+      <hr>
+      <h5 class="card-title">EOS 2100D Camera</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+      <hr>
+      <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- End-RECENT PRODUCTS-->
+
+
+
+
+
+
+
+
+
+<!-- Start-FEATURED PRODUCTS-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-8 col-lg-4 col-md-4"> 
+      <h3 >FEATURED PRODUCTS</h3>
+    </div>
+    <div class="col-xs-4 col-lg-8 col-md-8" style="margin-top: 15px;">
+      <p class="sepratoer"></p>
+  
+    </div>
+  
+  </div>
+  </div>
+  
+  <div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+      <img src="images/item5.png" class="card-img-top" alt="item">
+      <div class="card-body">
+        <span class="col-4 col-xs-4">$2499.99</span>
+        <button type="button" class="btn btn-secondary">ADD TO CART</button>
+        <hr>
+        <h5 class="card-title">EOS 450D Camera</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+       <hr>
+        <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+      </div>
+    </div>
+  
+    <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+      <img src="images/item6.png" class="card-img-top" alt="item">
+      <div class="card-body">
+        <span class="col-4 col-xs-4">$499.99</span>
+        <button type="button" class="btn btn-secondary">ADD TO CART</button>
+        <hr>
+        <h5 class="card-title">Photography Umbrella</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+        <hr>
+        <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+      </div>
+    </div>
+  
+    <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+      <img src="images/item7.png" class="card-img-top" alt="item">
+      <div class="card-body">
+        <span class="col-4 col-xs-4">$749.59</span>
+        <button type="button" class="btn btn-secondary">ADD TO CART</button>
+        <hr>
+        <h5 class="card-title">EOS 450D Camera Lens</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+        <hr>
+        <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+      </div>
+    </div>
+  
+    <div class="card col-md-3 col-lg-3 col-sm-6 col-xs-12 m-1 p-3 w-100" style="width: 18rem;">
+      <img src="images/item8.png" class="card-img-top" alt="item">
+      <div class="card-body">
+        <span class="col-4 col-xs-4">$5499.99</span>
+        <button type="button" class="btn btn-secondary">ADD TO CART</button>
+        <hr>
+        <h5 class="card-title">50 mm Camera Lens</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, conse   adipiscing elit, sed diam</p>
+        <hr>
+        <button type="button" class="btn btn-link" onclick="view()">View the Product &gt;</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+</div>
+  <!-- End-FEATURED PRODUCTS-->
+  
+  <!--End-ProductDettails-->
+
+
+<!--Start-Brands-->
+<div class="container-fluid" >
+  <div class="row">
+    <div class="col-xs-8 col-lg-4 col-md-4"> 
+      <h3 >CHECK OUR BRANDS</h3>
+    </div>
+    <div class="col-xs-4 col-lg-8 col-md-8" style="margin-top: 15px;">
+      <p class="sepratoer"></p>
+  
+    </div>
+  
+  </div>
+<div class="row justify-content-center text-center" style="background-color: #fff;">
+  <div class="col-lg-2 col-md-2 m-3"> 
+    <img src="images/brand1.png" id="brand" alt="">
+  </div>
+  <div class="col-lg-2 col-md-2 m-3"> 
+    <img src="images/brand2.png" id="brand" alt="">
+  </div>
+   <div class="col-lg-2 col-md-2 m-3"> 
+    <img src="images/brand3.png" id="brand" alt="">
+  </div>
+  <div class="col-lg-2 col-md-2 m-3"> 
+    <img src="images/brand4.png" id="brand" alt="">
+  </div>
+  <div class="col-lg-2 col-md-2 m-3"> 
+    <img src="images/brand5.png" id="brand" alt="">
+  </div>
+</div>
+
+
+
+
+
+  </div>
+
+<!--End-Brands-->
+
+<!--Start-Footer-->
+
+
+
+
+
+
+
+<!--End-Footer-->
+
+
+
+</div>  <!--End Page   </div>    -->
+
+
+<footer>
+
+  <div class="container-fluid">
+  <div class="row justify-content-center text-center">
+  <div class="col-lg-3 col-md-3 col-xs-1 col-sm-1 p-2 w-100">
+  <img src="images/logo.png"  width="75%"  alt="logo">
+  <br>
+  <br>
+  <div style="height: 50px;"></div>
+  <h3 class="card-title">Follow us</h3>
+  
+    <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-rss" aria-hidden="true"></i></button>
+    <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-pinterest-p" aria-hidden="true"></i></button>
+    <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+    <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+    <button class="btn btn-secondary btnlist" type="button" id="button-addon2"><i class="fa fa-globe" aria-hidden="true"></i></button>
+  
+  </div>
+
+
+
+  <div class="col-lg-3 col-md-3 col-xs-1 col-sm-1 p-2">
+    <h3 class="card-title">Recent Posts</h3>
+  <div class="row">
+  
+  
+  <div class="card-body">
+  <div class="container-fluid">
+    <div class="row card-body">
+  
+  
+    <div class="col-4 w-100" style="background-image: url('images/1.png'); background-size:cover ; height: 80px; width: 80px; border-radius: 10px;">
+      
+    </div>
+    <div class="col-8 p-3" style="background-color:#fff;">
+    <h6>New Camera Set</h6>
+    <p>posted by <span style="color: rgb(184, 184, 72);">Admin</span></p>
+    </div>
+  
+    
+  
+    <div class="col-4 w-100" style="background-image: url('images/1.png'); background-size:cover ; height: 80px; width: 80px; border-radius: 10px;">
+      
+    </div>
+    <div class="col-8 p-3" style="background-color:#fff;">
+    <h6>Special Camera Lenses</h6>
+    <p>posted by <span style="color: rgb(184, 184, 72);">Admin</span></p>
+    </div>
+  
+  
+  
+  
+  </div>
+  
+  </div>
+     
+    </div>
+  
+  </div>
+  </div>
+  
+  <div class="col-lg-3 col-md-3 col-xs-1 col-sm-1 p-2">
+    <h3 class="card-title">Contacts</h3>
+  
+    <pre class="text-left">
+      1000 Ljubljana
+      Celovska cesta 135
+      Country Slovenia
+      
+      Phone: (+386) 40 123 456
+      Mobile: (+386) 40 654 123
+      
+      info@premiumcoding.com 
+      
+      
+    </pre>
+  </div>
+  
+  <div class="col-lg-3 col-md-3 col-xs-1 col-sm-1 p-2">
+    <h3 class="card-title">What People say</h3>
+  <div class="row justify-content-center text-center">
+  <div class="col-4 w-100" >
+      <img src="images/personal-brand.png" alt="" style= " background-size:cover ; height: 80px; width: 80px; border-radius: 10px;">
+   <h6>Ahmed</h6>
+    </div>
+  
+     <div class="col-7 p-3" style="background-color:#dad7d7; border-radius: 20px;">
+   
+    <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Inte</p>
+    </div>
+  </div>
+    
+   <br>
+  
+  
+  <div class="row">
+    <div class="col-4 w-100" >
+        <img src="images/personal-brand.png" alt="" style= " background-size:cover ; height: 80px; width: 80px; border-radius: 10px;">
+     <h6>Mohammed</h6>
+      </div>
+    
+       <div class="col-7 p-3" style="background-color:#dad7d7; border-radius: 20px;">
+     
+      <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Inte</p>
+      </div>
+    </div>
+      
+  
+  
+  
+  
+  
+  
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  </footer>
+  
+  
+
+    <button class="btn btn-success" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+
+
+<p class="buttom">CameraStore @2013 by PremiumCoding | All Rights Reserved</p>
+
+
+
+
+<!-- Start-ModalLogin -->
+<div class="modal fade" id="exampleModalCenterLogin" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+      
+      </div>
+      <div class="modal-body">
+   
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+       
+          <button type="submit" onclick="log()" class="btn btn-primary">Login</button>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End-ModalModalLogin -->
+
+
+
+<!-- Start-ModalModalRegistration -->
+<div class="modal fade" id="exampleModalCenterRegistration" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Registration</h5>
+      
+      </div>
+      <div class="modal-body">
+   
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End-ModalModalRegistration -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+    <script src="myScript.js"></script>
+
+
+   
+  </body>
+</html>
